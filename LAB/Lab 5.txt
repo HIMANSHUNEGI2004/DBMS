@@ -1,0 +1,42 @@
+Q : create a view from the sales table where the id is greater than 3.
+
+Table : Sales ( id, name, salse)
+
+
+CREATE INDEX customers_by_phone ON customers (phone_number)
+
+CREATE UNIQUE INDEX uidx_pid ON Persons (PersonID);
+
+
+TRUNCATE TABLE table_name;  
+
+DELETE FROM table_name WHERE condition;  
+
+
+CREATE USER <username> IDENTIFIED BY <password>
+
+create user AB identified by 1234;
+
+grant all privileges to AB;
+
+revoke all privileges from AB;
+
+
+Role Name	Created By (Script)	Description
+
+CONNECT
+
+
+Includes the following system privileges: ALTER SESSION, CREATE CLUSTER, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, CREATE SYNONYM, CREATE TABLE, CREATE VIEW
+
+
+RESOURCE
+
+
+
+Includes the following system privileges: CREATE CLUSTER, CREATE INDEXTYPE, CREATE OPERATOR, CREATE PROCEDURE, CREATE SEQUENCE, CREATE TABLE, CREATE TRIGGER, CREATE TYPE
+
+DBA
+
+
+All system privileges WITH ADMIN OPTION

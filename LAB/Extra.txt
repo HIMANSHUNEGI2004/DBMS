@@ -1,0 +1,18 @@
+1. Emp Table :   Employee Id. (Primary key), Name, Department, city , Age (check >18))
+
+2. find those employees whose name ends with 'd' and more than six characters long. Return complete information about the 
+employees.
+
+3. Display the employee names and their departments of employees, whose city name starts with 'D' or ends with 'h'.
+
+4. find those employees whose names contain the letter 'A’. Return complete information about the employees.
+
+
+5. Identifying NULL or Empty Values Table ‘StudentsInfo'.
+
+
+Select * from StudentsInfo WHERE ContactPhone IS NULL
+
+SELECT * FROM Orders WHERE item LIKE '%d'   AND LENGTH (item) > 6;
+
+SELECT * FROM employees WHERE emp_name LIKE '%A%';

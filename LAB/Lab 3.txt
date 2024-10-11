@@ -1,0 +1,33 @@
+SELECT MIN(Price) FROM Products;
+
+SELECT MAX(Price) FROM Products;
+
+SELECT MAX(column_name) FROM table_name WHERE condition;
+
+SELECT SUM(price) FROM Products ;
+
+SELECT AVG(price) FROM Products ;
+
+SELECT COUNT(item_fr) FROM Products ;
+
+SELECT * FROM Products ORDER BY Price DESC;
+
+select * from Customers order by first_name;
+
+Select * from Customers where age>(Select avg(age) from Customers)
+
+
+The following SQL statement selects all customers from the "Customers" table, sorted by the "Country" and the 
+"CustomerName" column. 
+This means that it orders by Country, but if some rows have the same Country, it orders them by CustomerName:
+
+
+SELECT * FROM Customers ORDER BY Country, CustomerName;
+
+
+• Find out the maximum and minimum salary from the employee table.
+• Show the total salary and average salary of all the employees.
+• Display the employee's name from lowest salary to highest salary.
+• Display the employee name and salary (department-wise) for employees,
+ whose salary is greater than or equal to 10,000 and whose age is greater than 25.
+• Display a unique customer  name. 

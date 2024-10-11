@@ -1,0 +1,22 @@
+CREATE TABLE Student (sno NUMBER(3), sname CHAR(10), class CHAR(5));
+
+INSERT INTO student VALUES (1,'Ravi','MTech');
+
+INSERT INTO student (sname) VALUES ('Ravi1');
+
+update student set sno = 1 where sname = 'Ravi1';
+
+Select * from student;
+
+DROP TABLE student;
+
+LAB PRACTICE ASSIGNMENT:
+
+1. Create a table EMPLOYEE with the following schema:
+(Emp_no, E_name, E_address, E_ph_no, Dept_no, Dept_name,Job_id , Salary)
+
+2. Insert at least 5 rows in a Table. 
+
+3. Display all information.
+
+4. Update the Salary information of any person.
